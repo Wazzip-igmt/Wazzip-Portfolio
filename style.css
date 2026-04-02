@@ -181,10 +181,13 @@ footer a {
 }
 
 @media (min-width: 700px) {
-     :root  {
---bg-url: url(./assets/bg-desktop.jpg)
+  /* fundo padrão para desktop */
+  :root {
+    --bg-url: url(./assets/bg-desktop.jpg);
+  }
 
-       .luz(
---bg-url: url(./assets/bg-desktop-light.jpg)
-  )
+  /* fundo claro para desktop */
+  .luz {
+    --bg-url: url(./assets/bg-desktop-light.jpg);
+  }
 }
