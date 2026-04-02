@@ -7,7 +7,7 @@
 /* variáveis */
 :root {
   --text-color: white;
-  --bg-url: url("./assets/bg-mobile.jpg");
+  --bg-url: "./assets/bg-mobile.jpg"; /* apenas o caminho da imagem */
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -18,7 +18,7 @@
 /* modo claro */
 .luz {
   --text-color: black;
-  --bg-url: url("./assets/bg-mobile-light.jpg");
+  --bg-url: "./assets/bg-mobile-light.jpg";
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.1);
@@ -28,7 +28,10 @@
 
 /* corpo */
 body {
-  background: var(--bg-url) no-repeat center top / cover;
+  background-image: url(var(--bg-url));  /* <--- assim funciona */
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-size: cover;
   font-family: "Google Sans", sans-serif;
   min-height: 100vh;
 }
@@ -176,10 +179,10 @@ footer a {
 /* desktop */
 @media (min-width: 700px) {
   :root {
-    --bg-url: url("./assets/bg-desktop.jpg");
+    --bg-url: "./assets/bg-desktop.jpg";
   }
 
   .luz {
-    --bg-url: url("./assets/bg-desktop-light.jpg");
+    --bg-url: "./assets/bg-desktop-light.jpg";
   }
 }
