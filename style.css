@@ -33,7 +33,6 @@ body {
   background-position: center top;
   background-size: cover;
   font-family: "Google Sans", sans-serif;
-  min-height: 100vh;
 }
 
 body * {
@@ -179,15 +178,4 @@ footer {
 footer a {
   font-size: 20px;
   text-decoration: none;
-}
-
-/* desktop */
-@media (min-width: 700px) {
-  :root {
-    --bg-url: url("./assets/bg-desktop.jpg"); /* ✅ url() dentro da variável */
-  }
-
-  .luz {
-    --bg-url: url("./assets/bg-desktop-light.jpg"); /* ✅ url() dentro da variável */
-  }
 }
