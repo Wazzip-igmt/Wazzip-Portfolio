@@ -6,8 +6,8 @@ function toggleMode() {
   html.classList.toggle('luz')
 
   if (html.classList.contains('luz')) {
-    img.setAttribute('src', './Avatar.png')
+    img.setAttribute('src', './assets/Avatar.png')
   } else {
-    img.setAttribute('src', './Avatarluz.png')
+    img.setAttribute('src', './assets/Avatarluz.png')
   }
 }
