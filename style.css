@@ -73,15 +73,21 @@ body * {
 #seila button {
   width: 32px;
   height: 32px;
-  background: white var(--seila-bg-url) no-repeat center;
-  background-size: 20px;
   border: 0;
   border-radius: 50%;
+
+  background-color: white;
+  background-image: var(--seila-bg-url);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: contain;
+
   position: absolute;
   top: 50%;
   left: 0;
   transform: translateY(-50%);
   z-index: 1;
+
   transition: left 0.3s;
 }
 
