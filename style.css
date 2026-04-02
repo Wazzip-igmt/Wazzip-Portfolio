@@ -7,7 +7,7 @@
 /* variáveis */
 :root {
   --text-color: white;
-  --bg-url: "./assets/bg-mobile.jpg"; /* apenas o caminho da imagem */
+  --bg-url: url("./assets/bg-mobile.jpg"); /* ✅ url() dentro da variável */
   --stroke-color: rgba(255, 255, 255, 0.5);
   --surface-color: rgba(255, 255, 255, 0.05);
   --surface-color-hover: rgba(255, 255, 255, 0.02);
@@ -18,7 +18,7 @@
 /* modo claro */
 .luz {
   --text-color: black;
-  --bg-url: "./assets/bg-mobile-light.jpg";
+  --bg-url: url("./assets/bg-mobile-light.jpg"); /* ✅ url() dentro da variável */
   --stroke-color: rgba(0, 0, 0, 0.5);
   --surface-color: rgba(0, 0, 0, 0.05);
   --surface-color-hover: rgba(0, 0, 0, 0.1);
@@ -28,7 +28,7 @@
 
 /* corpo */
 body {
-  background-image: url(var(--bg-url));  /* <--- assim funciona */
+  background-image: var(--bg-url); /* ✅ corrigido — url() já está na variável */
   background-repeat: no-repeat;
   background-position: center top;
   background-size: cover;
@@ -67,6 +67,7 @@ body * {
 #seila {
   position: relative;
   width: 64px;
+  height: 32px; /* ✅ adicionado — necessário para o top: 50% funcionar corretamente */
   margin: 4px auto;
 }
 
@@ -86,6 +87,7 @@ body * {
   transform: translateY(-50%);
   z-index: 1;
   transition: left 0.3s;
+  cursor: pointer; /* ✅ adicionado — melhora a usabilidade */
 }
 
 .luz #seila button {
@@ -101,6 +103,9 @@ body * {
   border-radius: 9999px;
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
+  position: absolute; /* ✅ adicionado — centraliza o span dentro do #seila */
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 /* lista de links */
@@ -179,10 +184,10 @@ footer a {
 /* desktop */
 @media (min-width: 700px) {
   :root {
-    --bg-url: "./assets/bg-desktop.jpg";
+    --bg-url: url("./assets/bg-desktop.jpg"); /* ✅ url() dentro da variável */
   }
 
   .luz {
-    --bg-url: "./assets/bg-desktop-light.jpg";
+    --bg-url: url("./assets/bg-desktop-light.jpg"); /* ✅ url() dentro da variável */
   }
 }
