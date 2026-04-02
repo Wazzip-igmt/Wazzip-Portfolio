@@ -15,7 +15,7 @@
   --surface-color-hover: rgba(255, 255, 255, 0.02);
   --highlight-color: rgba(255, 255, 255, 0.2);
 
-  --seila-bg-url: url(./lua.svg);
+  --seila-bg-url: url(./assets/lua.svg);
 }
 
 /* modo claro */
@@ -29,7 +29,7 @@
   --surface-color-hover: rgba(0, 0, 0, 0.1);
   --highlight-color: rgba(0, 0, 0, 0.1);
 
-  --seila-bg-url: url(./sun.svg);
+  --seila-bg-url: url(./assets/sun.svg);
 }
 
 /* corpo */
@@ -117,10 +117,12 @@ body * {
   backdrop-filter: blur(4px);
   -webkit-backdrop-filter: blur(4px);
 }
+
 .luz #seila button{
   right: 0;
   left: initial;
 }
+
 /* lista de links */
 
 ul {
