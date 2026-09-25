@@ -1,48 +1,51 @@
-<h1 align="center"> DevLinks </h1>
-
-<p align="center">
-Programa exclusivo e gratuito, promovido pela Rocketseat para ensino de tecnologias WEB. <br/>
-<a href="https://lp.rocketseat.com.br/devlinks/inscricao?utm_source=github&utm_medium=descricao&utm_campaign=capture-devlinks&utm_term=organic&utm_content=descricao-github-mayk-brito">Estude esse projeto em formato de vídeo clicando aqui.</a>
-</p>
-
-<p align="center">
+<h1 align="center">DevLinks</h1><p align="center">
+  Projeto desenvolvido durante meus estudos de desenvolvimento web.
+  <br>
+  Um agregador de links simples e responsivo para reunir contatos e redes sociais em um único lugar.
+</p><p align="center">
   <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
   <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-layout">Layout</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#memo-licença">Licença</a>
-</p>
+  <a href="#-aprendizados">Aprendizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-créditos">Créditos</a>
+</p><br><p align="center">
+  <img alt="Projeto DevLinks" src="./assets/Cover.jpg" width="100%">
+</p>🚀 Tecnologias
 
-<p align="center">
-  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
-</p>
+Este projeto foi desenvolvido utilizando:
 
-<br>
-
-<p align="center">
-  <img alt="projeto DevLinks" src="./assets/Cover.jpg" width="100%">
-</p>
-
-## 🚀 Tecnologias
-
-Esse projeto foi desenvolvido com as seguintes tecnologias:
-
-- HTML e CSS
+- HTML5
+- CSS3
 - JavaScript
-- Git e Github
+- Git e GitHub
 - Figma
 
-## 💻 Projeto
-O DevLinks é um agregador de links para usar como cartão de visitas online.
+💻 Projeto
 
+O DevLinks é uma página de links criada para funcionar como um cartão de visitas digital.
 
-## 🔖 Layout
+O projeto apresenta uma interface simples, organizada e responsiva, permitindo reunir diferentes links em um único lugar.
 
-Você pode visualizar o layout do projeto através [DESSE LINK](https://www.figma.com/community/file/1187422022288947321). É necessário ter conta no [Figma](https://figma.com) para acessá-lo.
+📚 Aprendizados
 
-## :memo: Licença
+Durante o desenvolvimento, pratiquei:
 
-Esse projeto está sob a licença MIT.
+- Estruturação de páginas com HTML
+- Estilização e responsividade com CSS
+- Interações com JavaScript
+- Organização de projetos
+- Versionamento com Git
+- Publicação e gerenciamento de código no GitHub
+
+📌 Próximos passos
+
+Pretendo continuar evoluindo este projeto e aplicar novos conhecimentos de desenvolvimento web.
+
+🎓 Créditos
+
+Projeto desenvolvido durante meus estudos com base no projeto DevLinks, da Rocketseat.
+
+Os materiais originais podem ser encontrados na comunidade da Rocketseat.
 
 ---
 
-Feito com ♥ by Rocketseat :wave: [Participe da nossa comunidade!](https://discord.gg/rocketseat)
+Desenvolvido por Wazzip-igmt.
