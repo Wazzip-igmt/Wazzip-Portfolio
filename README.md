@@ -1,51 +1,46 @@
-<h1 align="center">DevLinks</h1><p align="center">
-  Projeto desenvolvido durante meus estudos de desenvolvimento web.
-  <br>
-  Um agregador de links simples e responsivo para reunir contatos e redes sociais em um único lugar.
-</p><p align="center">
-  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-aprendizados">Aprendizados</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
-  <a href="#-créditos">Créditos</a>
-</p><br><p align="center">
-  <img alt="Projeto DevLinks" src="./assets/Cover.jpg" width="100%">
-</p>🚀 Tecnologias
+💻 Wazzip | Developer Portfolio
 
-Este projeto foi desenvolvido utilizando:
+Meu portfólio pessoal de desenvolvimento, criado para apresentar meus projetos, conhecimentos e evolução na programação.
 
+🚀 Tecnologias
+
+<p align="left">
+  <img src="https://skillicons.dev/icons?i=html,css,js,java,git,github" />
+</p>👨‍💻 Sobre mim
+
+Sou desenvolvedor em formação, com foco em Back-end e Java.
+
+Atualmente estudo programação através de projetos práticos, buscando melhorar minha lógica, organização de código e desenvolvimento de aplicações.
+
+🛠️ Conhecimentos
+
+- Java
 - HTML5
 - CSS3
 - JavaScript
-- Git e GitHub
-- Figma
+- Git
+- GitHub
+- Programação Orientada a Objetos
+- JavaFX
 
-💻 Projeto
+📂 Projetos
 
-O DevLinks é uma página de links criada para funcionar como um cartão de visitas digital.
+Neste portfólio você encontrará projetos desenvolvidos durante minha jornada de aprendizado, incluindo:
 
-O projeto apresenta uma interface simples, organizada e responsiva, permitindo reunir diferentes links em um único lugar.
+- Aplicações em Java
+- Projetos web
+- Interfaces e páginas responsivas
+- Exercícios práticos de programação
 
-📚 Aprendizados
+🎯 Objetivo
 
-Durante o desenvolvimento, pratiquei:
+Meu objetivo é continuar evoluindo como desenvolvedor e construir uma carreira na área de desenvolvimento Back-end, com foco em Java.
 
-- Estruturação de páginas com HTML
-- Estilização e responsividade com CSS
-- Interações com JavaScript
-- Organização de projetos
-- Versionamento com Git
-- Publicação e gerenciamento de código no GitHub
+📌 Projeto
 
-📌 Próximos passos
-
-Pretendo continuar evoluindo este projeto e aplicar novos conhecimentos de desenvolvimento web.
-
-🎓 Créditos
-
-Projeto desenvolvido durante meus estudos com base no projeto DevLinks, da Rocketseat.
-
-Os materiais originais podem ser encontrados na comunidade da Rocketseat.
+Este portfólio foi desenvolvido utilizando HTML, CSS e JavaScript.
 
 ---
 
-Desenvolvido por Wazzip-igmt.
+Wazzip-igmt
+Backend Developer em formação | Java | HTML | CSS
